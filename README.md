@@ -6,11 +6,11 @@ baixe o zip do projeto no github, extraia, e entre na pasta do projeto
 <h2>Execute os containers</h2>
 docker-compose up --build -d
 
-<h2>Entre no bash shell</h2>
-docker exec -it laravel_app bash
-
 <h2>Copie os arquivos para o container</h2>
 cp -R * /desafio-dev/src
+
+<h2>Entre no bash shell</h2>
+docker exec -it laravel_app bash
 
 <h2>Copie o arquivo .env</h2>
 cp env-example .env
