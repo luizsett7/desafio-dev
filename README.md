@@ -22,7 +22,7 @@ npm install
 composer install
 
 <h2>atribua permissões para as pastas</h2>
-chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
+chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache<br>
 chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
 
 <h2>Gere a chave da aplicação</h2>
