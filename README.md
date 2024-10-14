@@ -34,7 +34,7 @@ npm install
 <h2>Inicie o servidor de desenvolvimento Javascript</h2>
 npm run dev
 
-#<h1>API CNAB</h1>
+<h1>API CNAB</h1>
 A API CNAB é responsável por fazer o upload de arquivos CNAB, processar/parsing dos arquivos e listar as transações extraídas do arquivo. Abaixo estão os endpoints disponíveis:
 
 <h2>1. Upload do Arquivo CNAB</h2>
