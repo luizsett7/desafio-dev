@@ -9,12 +9,12 @@ export default defineConfig({
         }),
     ],
     server: {
-        host: '0.0.0.0', // Allow access from any IP address (useful in Docker)
-        port: 5173,      // The port Vite is running on
+        host: '0.0.0.0', 
+        port: 5173,      
         cors: {
-            origin: 'http://localhost:8000', // Adjust to match your Laravel server URL
-            methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Allowed methods
-            allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
+            origin: 'http://localhost:8000',
+            methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], 
+            allowedHeaders: ['Content-Type', 'Authorization'], 
         },
     },
 });
