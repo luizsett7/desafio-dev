@@ -1,6 +1,6 @@
 # <h1>Instruções para o deploy do CNAB - Parse</h1>
 
-<h2>Realize o download do projeto</h2>
+<h2>Realize o download do projeto da branch master</h2>
 baixe o zip do projeto no github, extraia, e entre na pasta do projeto
 
 <h2>Execute os containers</h2>
