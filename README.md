@@ -15,9 +15,6 @@ docker exec -it laravel_app bash
 <h2>Copie o arquivo .env</h2>
 cp env-example .env
 
-<h2>Instale as dependências do Node</h2>
-npm install
-
 <h2>Instale as dependências do PHP</h2>
 composer install
 
@@ -30,6 +27,9 @@ php artisan key:generate
 
 <h2>Realize a migração do banco de dados</h2>
 php artisan migrate
+
+<h2>Instale as dependências do Node</h2>
+npm install
 
 <h2>Inicie o servidor de desenvolvimento Javascript</h2>
 npm run dev
