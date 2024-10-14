@@ -7,7 +7,7 @@ baixe o zip do projeto no github, extraia, e entre na pasta do projeto
 docker-compose up --build -d
 
 <h2>Copie os arquivos para o container</h2>
-cp -R * /<diretorio-do-projeto/src
+cp -R * /diretorio-do-projeto/src
 
 <h2>Entre no bash shell</h2>
 docker exec -it laravel_app bash
