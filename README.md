@@ -37,29 +37,29 @@ npm run dev
 <h1>API CNAB</h1>
 A API CNAB é responsável por fazer o upload de arquivos CNAB, processar/parsing dos arquivos e listar as transações extraídas do arquivo. Abaixo estão os endpoints disponíveis:
 
-<h2>1. Upload do Arquivo CNAB</h2>
-Descrição:
-Este endpoint permite o upload de um arquivo CNAB, que será armazenado no servidor.
-
-URL: /cnab/upload
-Método: POST
-Nome da Rota: upload
-Parâmetros de Entrada:
-Arquivo CNAB no formato .txt, enviado como multipart/form-data.
-
-<h2>2. Parsing do Arquivo CNAB</h2>
-Descrição:
-Este endpoint processa o arquivo CNAB enviado anteriormente e extrai as informações de transações contidas nele.
-
-URL: /cnab/parse/{filePath}
-Método: GET
-Parâmetros de URL:
-{filePath}: Caminho do arquivo CNAB que foi enviado, obtido da resposta do endpoint de upload.
-
-<h2>3. Listagem de Transações</h2>
-Descrição:
-Este endpoint lista todas as transações processadas a partir de arquivos CNAB.
-
-URL: /cnab/transactions
+<h2>1. Upload do Arquivo CNAB</h2><br>
+Descrição:<br>
+Este endpoint permite o upload de um arquivo CNAB, que será armazenado no servidor.<br>
+<br>
+URL: /cnab/upload<br>
+Método: POST<br>
+Nome da Rota: upload<br>
+Parâmetros de Entrada:<br>
+Arquivo CNAB no formato .txt, enviado como multipart/form-data.<br>
+<br>
+<h2>2. Parsing do Arquivo CNAB</h2><br>
+Descrição:<br>
+Este endpoint processa o arquivo CNAB enviado anteriormente e extrai as informações de transações contidas nele.<br>
+<br>
+URL: /cnab/parse/{filePath}<br>
+Método: GET<br>
+Parâmetros de URL:<br>
+{filePath}: Caminho do arquivo CNAB que foi enviado, obtido da resposta do endpoint de upload.<br>
+<br>
+<h2>3. Listagem de Transações</h2><br>
+Descrição:<br>
+Este endpoint lista todas as transações processadas a partir de arquivos CNAB.<br>
+<br>
+URL: /cnab/transactions<br>
 Método: GET
 
