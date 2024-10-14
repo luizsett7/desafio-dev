@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-upload{
+    background-color: blue;
+    color: #FFF;
+    padding: 20px;
+    border-radius: 5px;
+}

@@ -11,3 +11,4 @@ Route::get('/user', function (Request $request) {
 Route::post('/cnab/upload', [CnabController::class, 'upload'])->name('upload');
 Route::get('/cnab/parse/{filePath}', [CnabController::class, 'parse']);
 Route::get('/cnab/transactions', [CnabController::class, 'listTransactions']);
+
