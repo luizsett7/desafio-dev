@@ -41,11 +41,11 @@ http://localhost:8000/register
 Clique em upload ou acesse http://localhost:8000/cnab/upload
 
 <h2>Verifique o arquivo no banco de dados</h2>
-http://localhost:8081/index.php
-username: laravel
-password: laravel
-database: laravel
-table: cnab_transactions
+http://localhost:8081/index.php<br>
+username: laravel<br>
+password: laravel<br>
+database: laravel<br>
+table: cnab_transactions<br>
 
 <h2>Realize testes</h2>
 Entre na pasta do projeto<br>
