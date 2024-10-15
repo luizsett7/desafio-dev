@@ -40,6 +40,13 @@ http://localhost:8000/register
 <h2>Realize o upload</h2>
 Clique em upload ou acesse http://localhost:8000/cnab/upload
 
+<h2>Verifique o arquivo no banco de dados</h2>
+http://localhost:8081/index.php
+username: laravel
+password: laravel
+database: laravel
+table: cnab_transactions
+
 <h2>Realize testes</h2>
 Entre na pasta do projeto<br>
 docker exec -it laravel_app bash<br>
