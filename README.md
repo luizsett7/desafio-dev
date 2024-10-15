@@ -38,7 +38,7 @@ npm run dev
 http://localhost:8000/register
 
 <h2>Realize o upload</h2>
-http://localhost:8000/cnab/upload
+Clique em upload ou acesse http://localhost:8000/cnab/upload
 
 <h2>Realize testes</h2>
 Entre na pasta do projeto<br>
