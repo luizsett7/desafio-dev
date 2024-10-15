@@ -7,7 +7,7 @@ baixe o zip do projeto no github, extraia, e entre na pasta do projeto
 docker-compose up --build -d
 
 <h2>Copie todos os arquivos para a pasta do container (src)</h2>
-find . -maxdepth 1 -not -name src -not -name . -exec cp -r {} src/ \;
+sudo find . -maxdepth 1 -not -name src -not -name . -exec cp -r {} src/ \;
 
 <h2>Entre no bash shell</h2>
 docker exec -it laravel_app bash
@@ -33,6 +33,12 @@ npm install
 
 <h2>Inicie o servidor de desenvolvimento Javascript</h2>
 npm run dev
+
+<h2>Realize o registro</h2>
+http://localhost:8000/register
+
+<h2>Realize o upload</h2>
+http://localhost:8000/cnab/upload
 
 <h2>Realize testes</h2>
 Entre na pasta do projeto<br>
